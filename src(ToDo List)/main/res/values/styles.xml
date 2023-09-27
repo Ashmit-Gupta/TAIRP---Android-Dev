@@ -1,0 +1,23 @@
+<resources>
+    <!-- .Main application theme. -->
+    <style name="MainAppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">#CA2B0F</item>
+    </style>
+
+    <!--This theme is for the Splash Activity -->
+    <style name="SplashActivity_Theme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">#C39188</item>
+    </style>
+
+    <style name = "DialogStyle" parent = "Theme.Design.BottomSheetDialog">
+        <item name = "android:windowIsFloating">false</item>
+        <item name = "android:statusBarColor">@android:color/transparent</item>
+        <item name = "android:windowSoftInputMode">adjustResize</item>
+    </style>
+</resources>
